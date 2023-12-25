@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.mt-10{
+  margin-top: 10rem;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url("../img/banner-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .tagline {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.banner h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 5.5rem;
+  display: block;
+}
+.banner h3 {
+  font-size: 4.5rem;
+  font-weight: normal;
+}
+
+.banner img {
+  width: 100%;
+  animation: updown 3s linear infinite;
+}
+
+.row-custom {
+  width: 90%;
+  margin: auto;
+  margin-top: 15vh;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
