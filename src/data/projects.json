@@ -4,20 +4,20 @@
     "title": "PT Niki Akurasi Persada",
     "description": "HTML, Bootstrap, Javascript",
     "link": "https://www.nikiakurasipersada.com/",
-    "image": "src/assets/img/project1.png"
+    "image": "src/assets/img/project1.jpg"
   },
   {
     "id": 2,
     "title": "Web Inventory SMK Yadika",
     "description": "PHP, Bootstrap, Javascript",
     "link": "https://inventory-yadika.000webhostapp.com/login.php",
-    "image": "src/assets/img/project2.png"
+    "image": "src/assets/img/project2.jpg"
   },
   {
     "id": 3,
     "title": "Web Store Simple",
     "description": "HTML, Bootstrap, Javascript",
     "link": "https://wickedstich.netlify.app/",
-    "image": "src/assets/img/project3.png"
+    "image": "src/assets/img/project3.jpg"
   }
 ]
