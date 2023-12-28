@@ -14,7 +14,7 @@ const Banner = () => {
               <h3>Developer</h3>
             </div>
           </Col>
-          <Col className="bx-img" xs={12} md={6} xl={5} style={{ border: "1px solid" }}>
+          <Col className="bx-img" xs={12} md={6} xl={5}>
             <div className="d-flex justify-content-center">
               <img src={headerImg} className="img-fluid mt-10" alt="Header Img" />
             </div>

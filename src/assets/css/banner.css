@@ -13,7 +13,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid;
 }
 
 .banner .tagline {
@@ -39,7 +38,6 @@
   width: 90%;
   margin: auto;
   margin-top: 0;
-  border: 2px solid;
 }
 
 @keyframes updown {

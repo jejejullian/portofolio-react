@@ -13,6 +13,7 @@
 }
 
 .about .tagline {
+  text-align: center;
   font-size: 2rem;
   font-weight: lighter;
 }
@@ -31,6 +32,7 @@
 
 .about button {
   width: 30%;
+  margin: auto;
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 1rem;

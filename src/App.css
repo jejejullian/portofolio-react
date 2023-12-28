@@ -25,6 +25,8 @@ html {
   font-size: 62%;
   scroll-behavior: smooth;
   scroll-padding-top: 6.5rem;
+  background-color: #121212 !important;
+
 }
 
 body {
@@ -93,70 +95,3 @@ p.success {
 p.danger {
   color: red;
 }
-/* 
-@media screen and (max-width: 991px) {
-  html {
-    font-size: 50%;
-  }
-  .about .box-img {
-    width: 60%;
-    height: 50vh;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .banner img {
-    width: 60%;
-    height: auto;
-  }
-  .about .box-img {
-    height: 70vh;
-  }
-  .about .tagline {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-  }
-  .about button {
-    width: 30%;
-    margin: auto;
-    text-align: center;
-  }
-
-  .skills .bar {
-    display: flex;
-  }
-
-  .project .project-card {
-    margin-top: 3rem;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  
-  .banner .bx-img {
-    width: 72%;
-  }
-  .banner img {
-    width: 100%;
-    height: auto;
-  }
-  .about {
-    border: 1px solid;
-  }
-  .about .bx-img {
-    width: 76%;
-    border: 1px solid;
-  }
-  .about .box-img {
-    height: 50vh;
-  }
-  .about .custom-col {
-    width: 76%;
-    border: 1px solid;
-  }
-  .banner, .about, .skills, .project, .footer {
-    width: 76%;
-  }
-
-} */
