@@ -1,15 +1,15 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import '../assets/css/project.css';
+import { Container, Row, Col } from "react-bootstrap";
+import "../assets/css/project.css";
 
-import projectsData from '../function/getAllProjects.json';
+import projectsData from "../data/projects.json";
 
 const Project = () => {
   return (
-    <section className="project" id='project'>
+    <section className="project" id="project">
       <Container>
         <Row>
           <h2>Latest Projects</h2>
-          {projectsData.map(project => (
+          {projectsData.map((project) => (
             <Col md={6} sm={12} key={project.id}>
               <div className="project-card">
                 <div className="image-container">
