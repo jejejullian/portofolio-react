@@ -23,7 +23,6 @@
 
 html {
   font-size: 62%;
-  overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 6.5rem;
 }
@@ -36,17 +35,26 @@ body {
   color: #fff !important;
 }
 
-.logo{
+.logo {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: bolder;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: normal;
 }
 
-p, a, li, button, ul {
+p,
+a,
+li,
+button,
+ul {
   line-height: normal;
   text-decoration: none;
 }
@@ -60,21 +68,95 @@ button {
   background-color: transparent;
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus,
+textarea:focus,
+select:focus {
   outline: none;
 }
 
-@media (min-width:1700px) {
-	main .container {
-		max-width: 100%;
-		padding: 0 150px;
-	}
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1700px) {
+  .container {
+    max-width: 10%;
+    padding: 0 150px;
+  }
 }
 
 p.success {
-	color: green;
+  color: green;
 }
 
 p.danger {
-	color: red;
+  color: red;
 }
+/* 
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 50%;
+  }
+  .about .box-img {
+    width: 60%;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .banner img {
+    width: 60%;
+    height: auto;
+  }
+  .about .box-img {
+    height: 70vh;
+  }
+  .about .tagline {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .about button {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .skills .bar {
+    display: flex;
+  }
+
+  .project .project-card {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  
+  .banner .bx-img {
+    width: 72%;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  .about {
+    border: 1px solid;
+  }
+  .about .bx-img {
+    width: 76%;
+    border: 1px solid;
+  }
+  .about .box-img {
+    height: 50vh;
+  }
+  .about .custom-col {
+    width: 76%;
+    border: 1px solid;
+  }
+  .banner, .about, .skills, .project, .footer {
+    width: 76%;
+  }
+
+} */

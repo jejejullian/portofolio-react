@@ -1,6 +1,6 @@
 .project {
-  margin-top: 5rem;
-  padding: 40px 0;
+  margin: 5rem 0 5rem 0;
+  padding: 5rem 0;
 }
 
 .project h2 {
@@ -15,6 +15,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2rem;
   padding: 20px;
   background-color: #226597;
   border-radius: 10px;

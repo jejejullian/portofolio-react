@@ -5,11 +5,11 @@
 }
 
 .about {
-  height: 100vh;
   background-image: url("../img/about-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 10rem;
 }
 
 .about .tagline {
@@ -60,23 +60,4 @@
   width: 90%;
   margin: auto;
   margin-top: 15vh;
-}
-
-@media screen and (max-width: 768px) {
-  .mt-10 {
-    margin-top: 5rem;
-  }
-
-  .about h2 {
-    font-size: 3rem;
-  }
-
-  .about button {
-    width: 40%;
-  }
-
-  .box-img {
-    width: 60%;
-    height: 60vh;
-  }
 }
