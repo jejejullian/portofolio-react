@@ -26,7 +26,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 6.5rem;
   background-color: #121212 !important;
-
 }
 
 body {
@@ -94,4 +93,13 @@ p.success {
 
 p.danger {
   color: red;
+}
+
+@media screen and (max-width: 450px) {
+  .banner .bx-content{
+    margin-top: 10rem;
+  }
+  .about .bx-content{
+    margin-top: 12rem;
+  }
 }

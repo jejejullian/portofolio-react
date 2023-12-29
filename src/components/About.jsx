@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section className="about">
       <Container fluid>
-        <Row className="align-items-center">
+        <Row className="bx-content align-items-center">
           <Col className="bx-img" xs={12} md={6} xl={6} >
             <div className="w-100 mt-10 d-flex justify-content-center">
               <div className="box-img"></div>

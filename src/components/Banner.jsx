@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="align-items-center">
+        <Row className="bx-content align-items-center">
           <Col xs={12} md={6} xl={7}>
             <div className="mt-10">
               <span className="tagline">Hello I'm Julian</span>
