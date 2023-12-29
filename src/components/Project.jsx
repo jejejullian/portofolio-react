@@ -1,7 +1,32 @@
 import { Container, Row, Col } from "react-bootstrap";
+import project1Image from "../assets/img/project1.jpg";
+import project2Image from "../assets/img/project2.jpg";
+import project3Image from "../assets/img/project3.jpg";
 import "../assets/css/project.css";
 
-import projectsData from "../data/projects.json";
+const projectsData = [
+  {
+    id: 1,
+    title: "PT Niki Akurasi Persada",
+    description: "HTML, Bootstrap, Javascript",
+    link: "https://www.nikiakurasipersada.com/",
+    image: project1Image,
+  },
+  {
+    id: 2,
+    title: "Web Inventory SMK Yadika",
+    description: "PHP, Bootstrap, Javascript",
+    link: "https://inventory-yadika.000webhostapp.com/login.php",
+    image: project2Image,
+  },
+  {
+    id: 3,
+    title: "Web Store Simple",
+    description: "HTML, Bootstrap, Javascript",
+    link: "https://wickedstich.netlify.app/",
+    image: project3Image,
+  },
+];
 
 const Project = () => {
   return (
